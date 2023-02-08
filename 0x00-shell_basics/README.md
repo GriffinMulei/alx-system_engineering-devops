@@ -7,3 +7,5 @@
 	changes the working directory to the user’s home directory
 ## 3-listfiles
 	prints all the files and directories within the location
+## 4-listmorefiles
+	list down all the files + directories including hidden files/directories
