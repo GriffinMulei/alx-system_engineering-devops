@@ -15,5 +15,7 @@
 	execution permission to the owner, the group owner and the other users, to the file hello
 # 8-James_Bond
 	this comand  permits all the permissions  to the file hello to Other users
-# 9-John_Doe
-	this command sets permissions so that, (U)ser / owner can read, can write and can execute. (G)roup can read, can't write and can execute.
+#9-John_Doe
+	this command sets the mode of the file hello to  -rwxr-x-wx 1 julie
+# 10-mirror_permissions
+	this command sets the mode of the file hello the same as olleh’s mode
