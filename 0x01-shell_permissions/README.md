@@ -19,3 +19,5 @@
 	this command sets the mode of the file hello to  -rwxr-x-wx 1 julie
 # 10-mirror_permissions
 	this command sets the mode of the file hello the same as olleh’s mode
+# 11-directories_permissions
+	 this command adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
