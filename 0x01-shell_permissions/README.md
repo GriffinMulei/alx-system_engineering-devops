@@ -8,4 +8,4 @@
 # 4-empty
 	this command creates an empty file called hello
 # 5-execute
-	this command execute permission to the owner of the file hello
+	this command executes permission to the owner of the file hello
