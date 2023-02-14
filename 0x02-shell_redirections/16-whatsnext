@@ -1,2 +1,2 @@
 #!/bin/bash
-pwent=`grep '^root:' /etc/passwd`
+grep -B 4 "games" /etc/passwd
