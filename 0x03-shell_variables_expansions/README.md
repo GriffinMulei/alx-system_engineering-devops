@@ -5,3 +5,5 @@
 	this command prints hello user, where user is the current Linux user.
 ## 2-path
 	this command Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+## 3-paths
+	this command counts the number of directories in the PATH
