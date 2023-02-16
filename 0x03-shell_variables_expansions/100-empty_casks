@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type d -empty -exec rmdir {} \;
+find ./ -type f -empty | wc -l
