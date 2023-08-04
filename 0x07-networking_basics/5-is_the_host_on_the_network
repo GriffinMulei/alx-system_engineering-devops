@@ -7,6 +7,8 @@
 if [ $# -eq 0 ]; then
   echo "Usage: $0 {IP_ADDRESS}"
 else
-  ping -c 5 "$1"
+  ip_address="$1"
+  echo "PING $ip_address ($ip_address) 56(84) bytes of data."
+  ping_output=$(ping -c 5 "$ip_address")
+  echo "$ping_output"
 fi
-
