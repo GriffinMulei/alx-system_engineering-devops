@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Installs Nginx server to linsten on port 80
+# installs nginx and configures it on a remote server
 
-apt-get update
-apt-get install -y nginx
-
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
 echo 'Hello World!' > /var/www/html/index.nginx-debian.html
-service nginx restart
+service nginx start
