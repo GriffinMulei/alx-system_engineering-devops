@@ -1,0 +1,25 @@
+[34m
+* Datadog Agent 7 install script v1.23.0
+[0m
+[34m
+* Installing apt-transport-https, curl and gnupg
+[0m
+Ign:1 https://apt.datadoghq.com stable InRelease
+Hit:2 https://apt.datadoghq.com stable Release
+Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:7 http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu focal InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.68.0-1ubuntu2.20).
+gnupg is already the newest version (2.2.19-3ubuntu2.2).
+apt-transport-https is already the newest version (2.0.9).
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ datadog-apm-library-all : Depends: datadog-apm-library-python (>= 1.20.5) but it is not going to be installed
+                           Depends: datadog-apm-library-ruby (>= 1.15.0) but it is not going to be installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
